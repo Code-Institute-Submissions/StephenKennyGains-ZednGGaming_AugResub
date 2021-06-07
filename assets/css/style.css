@@ -6,22 +6,14 @@
 header {
     width: 100%;
     min-height: 100px;
-    background-color: black;
+    background-color: gray;
     color: white;
-}
-
-#logo {
-    max-width: 33%;
-    max-height: auto;
-    
+    border-bottom: 4px solid black;
 }
 
 #logo img {
-    max-width: 33%;
-    height: auto;
-    position: relative;
+    padding: 15px 0px 5px 50px;
     float: left;
-    padding: 10px 0px 50px 10px;
 }
 
 nav {
@@ -39,40 +31,52 @@ nav > a {
     padding: 5px;
 }
 
-.HomeButton {
+.Home-Button {
     background-color: rgb(238, 223, 11);
 }
 
-.HomeButton:hover {
+.Home-Button:hover {
     color: rgb(238, 223, 11);
     background-color: white;
 }
 
-.TwitchButton {
+.Twitch-Button {
     background-color: rgb(196, 5, 196);
 }
 
-.TwitchButton:hover {
+.Twitch-Button:hover {
     color: rgb(196, 5, 196);
     background-color: white;
 }
 
-.YoutubeButton {
+.Youtube-Button {
     background-color: rgb(243, 38, 38);
 }
 
-.YoutubeButton:hover {
+.Youtube-Button:hover {
     color: rgb(243, 38, 38);
     background-color: white;
 }
 
-.ContactButton {
+.Contact-Button {
     background-color: rgb(95, 163, 226);
 }
 
-.ContactButton:hover {
+.Contact-Button:hover {
     color: rgb(95, 163, 226);
     background-color: white;
 }
 
+#hero-image {
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/Hero-image.jpg);
+    background-position: center;
+}
 
+#hero-image > h1 {
+    font-size: 3rem;
+    color: white;
+    vertical-align: bottom;
+    padding: 400px 0px 10px 50px;
+}
