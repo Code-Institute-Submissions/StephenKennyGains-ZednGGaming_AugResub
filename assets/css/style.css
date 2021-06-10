@@ -93,4 +93,82 @@ nav > a {
 
 /* Twitch Section and Links */
 
+#Twitch {
+    height: 600px;
+    width: 100%;
+    background-color: rgb(185, 12, 185);
+    background-image: url(../images/background_5.png);
+}
 
+#Twitch > h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 25px 0 25px 0;
+}
+
+.Twitch_cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 90%;
+    height: 400px;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.Twitch_card1 {
+    height: 400px;
+    width: 18%;
+    border: 2px solid white;
+    background-image: url(../images/VALORANT-285x380.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Twitch_card2 {
+    height: 400px;
+    width: 18%;
+    border: 2px solid white;
+    background-image: url(../images/FIFA\ 21-285x380.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Twitch_card3 {
+    height: 400px;
+    width: 18%;
+    border: 2px solid white;
+    background-image: url(../images/Valheim-285x380.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Twitch_card4 {
+    height: 400px;
+    width: 18%;
+    border: 2px solid white;
+    background-image: url(../images/League\ of\ Legends-285x380.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Twitch_card5 {
+    height: 400px;
+    width: 18%;
+    border: 2px solid white;
+    background-image: url(../images/Rogue\ Company-285x380.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Twitch img {
+    height: auto;
+    width: auto;
+    
+}
+
+#Twitch > h3 {
+    text-align: center;
+    font-size: 1.5rem;
+}
