@@ -8,7 +8,7 @@
 header {
     width: 100%;
     min-height: 100px;
-    background-color: gray;
+    background-color: rgb(32, 39, 39);
     color: white;
     border-bottom: 4px solid black;
 }
@@ -171,4 +171,13 @@ nav > a {
 #Twitch > h3 {
     text-align: center;
     font-size: 1.5rem;
+}
+
+
+
+#Youtube {
+    height: 600px;
+    width: 100%;
+    background-color: rgb(185, 12, 12);
+    background-image: url(../images/background_5.png);
 }
