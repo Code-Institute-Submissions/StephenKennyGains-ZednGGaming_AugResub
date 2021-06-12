@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -10,6 +12,7 @@ header {
     min-height: 100px;
     background-color: rgb(32, 39, 39);
     color: white;
+    font-family: 'Playfair Display SC', serif;
 }
 
 #logo img {
@@ -30,7 +33,6 @@ nav > a {
     border: 2px solid white;
     border-radius: 4px;
     padding: 5px;
-    text-align: center;
 }
 
 .Home-Button {
@@ -43,11 +45,11 @@ nav > a {
 }
 
 .Twitch-Button {
-    background-color: rgb(196, 5, 196);
+    background-color: #6441A4;
 }
 
 .Twitch-Button:hover {
-    color: rgb(196, 5, 196);
+    color: #6441A4;
     background-color: white;
 }
 
@@ -61,7 +63,7 @@ nav > a {
 }
 
 .Contact-Button {
-    background-color: rgb(95, 163, 226);
+    background-color:  #738adb;
 }
 
 .Contact-Button:hover {
@@ -85,12 +87,14 @@ nav > a {
     color: white;
     vertical-align: bottom;
     padding: 350px 0px 30px 50px;
+    font-family: 'Playfair Display SC', serif;
 }
 
 #hero-image > h2 {
     font-size: 2rem;
     color: white;
     padding: 0px 0px 10px 50px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Twitch Section and Links */
@@ -98,8 +102,8 @@ nav > a {
 #Twitch {
     height: 600px;
     width: 100%;
-    background-color: rgb(185, 12, 185);
-    background-image: url(../images/background_5.png);
+    background-color: #6441a4;
+    background-image: url(../images/Background12.png);
 }
 
 #Twitch > h2 {
@@ -164,22 +168,34 @@ nav > a {
     background-size: cover;
 }
 
-#Twitch img {
-    height: auto;
-    width: auto;
-    
-}
 
 #Twitch > h3 {
     text-align: center;
     font-size: 1.5rem;
 }
 
-
+/* Youtube Section */
 
 #Youtube {
     height: 600px;
     width: 100%;
-    background-color: rgb(185, 12, 12);
-    background-image: url(../images/background_5.png);
+    background-color: #ff0000e7;
+    background-image: url(../images/Background12.png);
+}
+
+#Youtube-videos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 90%;
+    height: 400px;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+#Youtube > h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 25px 0 25px 0;
 }
