@@ -101,7 +101,7 @@ nav > a {
 /* Twitch Section and Links */
 
 #Twitch {
-    height: 600px;
+    min-height: 600px;
     width: 100%;
     background-color: #6441a4;
     background-image: url(../images/Background12.png);
@@ -110,7 +110,7 @@ nav > a {
 }
 
 #Twitch > h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: left;
     padding: 25px 0 25px 100px;
     color: white;
@@ -123,13 +123,13 @@ nav > a {
     flex-direction: row;
     margin: 0 auto;
     width: 90%;
-    height: 400px;
+    max-height: 400px;
     justify-content: space-between;
     padding-bottom: 40px;
 }
 
 .Twitch_card1 {
-    height: 400px;
+    min-height: 400px;
     width: 18%;
     border: 2px solid white;
     background-image: url(../images/VALORANT-285x380.jpg);
@@ -173,6 +173,22 @@ nav > a {
     background-size: cover;
 }
 
+.Twitch_card1:hover {
+    border: 6px solid white;
+}
+.Twitch_card2:hover {
+    border: 6px solid white;
+}
+.Twitch_card3:hover {
+    border: 6px solid white;
+}
+.Twitch_card4:hover {
+    border: 6px solid white;
+}
+.Twitch_card5:hover {
+    border: 6px solid white;
+}
+
 
 #Twitch > h3 {
     text-align: center;
@@ -212,7 +228,7 @@ nav > a {
 }
 
 #Youtube > h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: left;
     padding: 25px 0 25px 100px;
     color: white;
@@ -240,4 +256,77 @@ nav > a {
     background-image: url(../images/Background12.png);
     border-bottom: 25px solid black;
     border-top: 25px solid black;
+}
+
+#Contact > h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 25px 0 25px 100px;
+    color: white;
+    text-decoration: underline;
+}
+
+.Discord {
+    max-width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.Discord > img {
+    max-width: 400px;
+}
+
+.Discord > div > p {
+    font-size: 2rem;
+    color: white;
+    padding-top: 80px;
+}
+
+.Contact-button {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    margin: 200px auto;
+}
+
+.Contact-button > button {
+    background-color: black;
+    font-size: 2rem;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.Contact-button > button > a {
+    text-decoration: none;
+    color: white;
+}
+
+.Contact-button > button > a:hover {
+    text-decoration: underline;
+}
+
+/* Site Footer */
+
+footer {
+    width: 100%;
+    min-height: 100px;
+    background-color: #343434;
+    color: white;
+    font-family: 'Playfair Display SC', serif;
+}
+
+/* Media Queries */
+
+@media (max-width: 800px) {
+
+.Twitch_cards {
+      flex: 100%;
+    }
+
 }
