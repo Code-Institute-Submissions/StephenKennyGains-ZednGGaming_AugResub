@@ -10,7 +10,7 @@
 header {
     width: 100%;
     min-height: 100px;
-    background-color: rgb(32, 39, 39);
+    background-color: #343434;
     color: white;
     font-family: 'Playfair Display SC', serif;
 }
@@ -67,7 +67,7 @@ nav > a {
 }
 
 .Contact-Button:hover {
-    color: rgb(95, 163, 226);
+    color: #738adb;
     background-color: white;
 }
 
@@ -78,22 +78,23 @@ nav > a {
     height: 600px;
     background-image: url(../images/axville-WcrqKjgMPfI-unsplash.jpg);
     background-position: center;
-    border-bottom: 4px solid black;
-    border-top: 4px solid black;
+    border-bottom: 25px solid black;
+    border-top: 25px solid black;
 }
 
 #hero-image > h1 {
     font-size: 3rem;
     color: white;
     vertical-align: bottom;
-    padding: 350px 0px 30px 50px;
+    padding: 250px 0px 30px 50px;
     font-family: 'Playfair Display SC', serif;
+    text-decoration: underline;
 }
 
 #hero-image > h2 {
     font-size: 2rem;
     color: white;
-    padding: 0px 0px 10px 50px;
+    padding: 0px 0px 0px 50px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -104,12 +105,16 @@ nav > a {
     width: 100%;
     background-color: #6441a4;
     background-image: url(../images/Background12.png);
+    border-bottom: 25px solid black;
+    border-top: 25px solid black;
 }
 
 #Twitch > h2 {
     font-size: 2rem;
-    text-align: center;
-    padding: 25px 0 25px 0;
+    text-align: left;
+    padding: 25px 0 25px 100px;
+    color: white;
+    text-decoration: underline;
 }
 
 .Twitch_cards {
@@ -172,6 +177,11 @@ nav > a {
 #Twitch > h3 {
     text-align: center;
     font-size: 1.5rem;
+    color: white;  
+}
+
+#Twitch > h3 > a {
+    color: white;
 }
 
 /* Youtube Section */
@@ -179,8 +189,10 @@ nav > a {
 #Youtube {
     height: 600px;
     width: 100%;
-    background-color: #ff0000e7;
+    background-color: #ff0000b7;
     background-image: url(../images/Background12.png);
+    border-bottom: 25px solid black;
+    border-top: 25px solid black;
 }
 
 #Youtube-videos {
@@ -192,10 +204,40 @@ nav > a {
     height: 400px;
     justify-content: space-between;
     padding-bottom: 40px;
+    align-items: center;
+}
+
+.Clips {
+    border: 2px solid white;
 }
 
 #Youtube > h2 {
     font-size: 2rem;
+    text-align: left;
+    padding: 25px 0 25px 100px;
+    color: white;
+    text-decoration: underline;
+}
+
+#Youtube > h3 {
     text-align: center;
-    padding: 25px 0 25px 0;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#Youtube > h3 > a {
+    color: white;
+}
+
+
+
+/* Contact Section */
+
+#Contact {
+    height: 600px;
+    width: 100%;
+    background-color: #738adb;
+    background-image: url(../images/Background12.png);
+    border-bottom: 25px solid black;
+    border-top: 25px solid black;
 }
