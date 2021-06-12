@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto&display=swap');
 
-* {
+body {
+    min-width: 100%;
     padding: 0;
     margin: 0;
 }
@@ -74,8 +75,8 @@ nav > a {
 /* Hero Image and Content */
 
 #hero-image {
-    width: 100%;
-    height: 600px;
+    min-height: auto;
+    min-width: 100%;
     background-image: url(../images/axville-WcrqKjgMPfI-unsplash.jpg);
     background-position: center;
     border-bottom: 25px solid black;
@@ -101,96 +102,50 @@ nav > a {
 /* Twitch Section and Links */
 
 #Twitch {
-    min-height: 600px;
+    min-height: auto;
     width: 100%;
     background-color: #6441a4;
     background-image: url(../images/Background12.png);
     border-bottom: 25px solid black;
     border-top: 25px solid black;
+    padding: 25px 5% 25px 5%;
 }
 
 #Twitch > h2 {
     font-size: 2.5rem;
+    padding-bottom: 25px;
     text-align: left;
-    padding: 25px 0 25px 100px;
     color: white;
     text-decoration: underline;
 }
 
 .Twitch_cards {
+    max-width: 90%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin: 0 auto;
-    width: 90%;
-    max-height: 400px;
     justify-content: space-between;
-    padding-bottom: 40px;
 }
 
-.Twitch_card1 {
-    min-height: 400px;
+.Twitch_card {
+    max-height: 400px;
     width: 18%;
     border: 2px solid white;
-    background-image: url(../images/VALORANT-285x380.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.Twitch_card2 {
-    height: 400px;
-    width: 18%;
-    border: 2px solid white;
-    background-image: url(../images/FIFA\ 21-285x380.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.Twitch_cards > a > img {
+    width: 100%;
+    height: auto;
 }
 
-.Twitch_card3 {
-    height: 400px;
-    width: 18%;
-    border: 2px solid white;
-    background-image: url(../images/Valheim-285x380.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.Twitch_card4 {
-    height: 400px;
-    width: 18%;
-    border: 2px solid white;
-    background-image: url(../images/League\ of\ Legends-285x380.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.Twitch_card5 {
-    height: 400px;
-    width: 18%;
-    border: 2px solid white;
-    background-image: url(../images/Rogue\ Company-285x380.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.Twitch_card1:hover {
+.Twitch_card:hover {
     border: 6px solid white;
 }
-.Twitch_card2:hover {
-    border: 6px solid white;
-}
-.Twitch_card3:hover {
-    border: 6px solid white;
-}
-.Twitch_card4:hover {
-    border: 6px solid white;
-}
-.Twitch_card5:hover {
-    border: 6px solid white;
-}
-
 
 #Twitch > h3 {
+    padding: 50px 5% 25px 5%;
     text-align: center;
     font-size: 1.5rem;
     color: white;  
@@ -203,7 +158,7 @@ nav > a {
 /* Youtube Section */
 
 #Youtube {
-    height: 600px;
+    min-height: auto;
     width: 100%;
     background-color: #ff0000b7;
     background-image: url(../images/Background12.png);
@@ -217,7 +172,7 @@ nav > a {
     flex-direction: row;
     margin: 0 auto;
     width: 90%;
-    height: 400px;
+    min-height: 400px;
     justify-content: space-between;
     padding-bottom: 40px;
     align-items: center;
@@ -323,10 +278,17 @@ footer {
 
 /* Media Queries */
 
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
 
-.Twitch_cards {
-      flex: 100%;
+    .Twitch_cards {
+        align-items: center;
+        flex: 100%;
+    }
+
+    #Youtube-videos {
+        flex: 100%;
+        align-items: center;
+        margin: 0 auto;
     }
 
 }
