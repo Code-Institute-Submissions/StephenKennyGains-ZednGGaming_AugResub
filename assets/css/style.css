@@ -272,6 +272,11 @@ footer {
     background-color: #343434;
     color: white;
     font-family: 'Playfair Display SC', serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
 }
 
 /* Media Queries */
@@ -346,4 +351,19 @@ footer {
         padding: 25px 15px;
     }
 
+    footer > p {
+        font-size: .5rem;
+    }
+
 }
+
+/* Twitch Page */
+
+    .Twitch-Logo {
+        text-align: center;
+    }
+
+    .Twitch-Logo img {
+        max-width: 600px;
+        height: auto;
+    }
