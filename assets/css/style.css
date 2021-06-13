@@ -92,7 +92,6 @@ nav > a {
 #hero-image > h1 {
     font-size: 3rem;
     color: white;
-    vertical-align: bottom;
     padding: 250px 0px 30px 50px;
     font-family: 'Playfair Display SC', serif;
     text-decoration: underline;
@@ -275,7 +274,34 @@ footer {
 
     header {
         align-items: center;
+        margin: 0 auto;
+        padding: 10px 10px;
+    }
+
+    #logo img {
+        align-items: center;
+        max-width: 100%;
         flex: 100%;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    nav > a {
+        margin: 20px;
+    }
+
+    #hero-image > h1 {
+        text-align: left;
+        padding: 100px 0px 30px 10px;
+    }
+
+    #hero-image > h2 {
+        text-align: left;
+        padding: 0px 0px 0px 10px;
     }
 
     .Twitch_cards {
@@ -309,10 +335,9 @@ footer {
         border: 2px solid white;
     }
 
-    .Discord {
-        flex: 100%;
-        align-items: center;
-        margin: 0 auto;
+    #Contact p {
+        font-size: 1.5rem;
+        padding: 25px 15px;
     }
 
 }
