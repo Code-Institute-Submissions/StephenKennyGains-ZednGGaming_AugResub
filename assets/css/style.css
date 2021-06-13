@@ -121,7 +121,7 @@ nav > a {
 #Twitch > h2 {
     font-size: 2.5rem;
     padding-bottom: 25px;
-    text-align: left;
+    text-align: center;
     color: white;
     text-decoration: underline;
 }
@@ -129,15 +129,15 @@ nav > a {
 .Twitch_cards {
     max-width: 90%;
     height: auto;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    align-content: center;
 }
 
 .Twitch_card {
-    max-height: 400px;
+    height: auto;
     width: 18%;
     border: 3px solid black;
     background-repeat: no-repeat;
@@ -182,7 +182,7 @@ nav > a {
     flex-wrap: wrap;
     flex-direction: row;
     margin: 0 auto;
-    width: 90%;
+    max-width: 90%;
     min-height: 400px;
     justify-content: space-between;
     padding-bottom: 40px;
@@ -190,13 +190,15 @@ nav > a {
 }
 
 .Clips {
+    width: 30%;
+    margin: 15px 10px 15px 10px;
     border: 2px solid white;
 }
 
 #Youtube > h2 {
     font-size: 2.5rem;
-    text-align: left;
-    padding: 25px 0 25px 100px;
+    text-align: center;
+    padding: 25px 0 25px 0;
     color: white;
     text-decoration: underline;
 }
@@ -216,8 +218,8 @@ nav > a {
 /* Contact Section */
 
 #Contact {
-    height: auto;
     max-width: 100%;
+    height: auto;
     background-color: #738adb;
     background-image: url(../images/Background12.png);
     border-bottom: 25px solid black;
@@ -227,51 +229,35 @@ nav > a {
 #Contact > h2 {
     font-size: 2.5rem;
     text-align: center;
-    padding: 25px 0 25px 100px;
+    padding: 25px 0 25px 0;
     color: white;
     text-decoration: underline;
 }
 
-.Discord {
-    max-width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-content: center;
-}
-
-.Discord  > p {
+#Contact p {
     font-size: 2rem;
-    color: white;
-    padding-top: 80px;
+    text-align: center;
+    color: black;
+    padding: 50px 25% 50px 25%;
 }
 
 .Contact-button {
-    width: 300px;
-    height: 50px;
+    min-width: 400px;
+    height: auto;
     text-align: center;
-    color: white;
-    margin: 200px auto;
+    padding: 0 0 50px 0;
 }
 
-.Contact-button > button {
+.Contact-button > a {
+    color: white;
     background-color: black;
-    font-size: 2rem;
-    border: 2px solid white;
-    border-radius: 15px;
-    padding: 10px;
-}
-
-.Contact-button > button > a {
     text-decoration: none;
-    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding:10px;
+    font-size: 1.5rem;
 }
 
-.Contact-button > button > a:hover {
-    text-decoration: underline;
-}
 
 /* Site Footer */
 
@@ -312,8 +298,15 @@ footer {
 
     #Youtube-videos {
         flex: 100%;
-        align-items: center;
-        margin: 0 auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .Clips {
+        min-width: 90%;
+        margin: 15px auto;
+        border: 2px solid white;
     }
 
     .Discord {
