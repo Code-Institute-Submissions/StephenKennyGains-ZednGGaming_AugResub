@@ -142,6 +142,7 @@ nav > a {
     border: 3px solid black;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 10px 0 25px 0;
 }
 
 .Twitch_cards > a > img {
@@ -157,7 +158,8 @@ nav > a {
     padding: 50px 5% 25px 5%;
     text-align: center;
     font-size: 1.5rem;
-    color: white;  
+    color: white;
+    display: block;  
 }
 
 #Twitch > h3 > a {
@@ -214,8 +216,8 @@ nav > a {
 /* Contact Section */
 
 #Contact {
-    height: 600px;
-    width: 100%;
+    height: auto;
+    max-width: 100%;
     background-color: #738adb;
     background-image: url(../images/Background12.png);
     border-bottom: 25px solid black;
@@ -232,7 +234,7 @@ nav > a {
 
 .Discord {
     max-width: 100%;
-    height: 200px;
+    height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -240,11 +242,7 @@ nav > a {
     align-content: center;
 }
 
-.Discord > img {
-    max-width: 400px;
-}
-
-.Discord > div > p {
+.Discord  > p {
     font-size: 2rem;
     color: white;
     padding-top: 80px;
@@ -278,8 +276,8 @@ nav > a {
 /* Site Footer */
 
 footer {
-    width: 100%;
-    min-height: 100px;
+    max-width: 100%;
+    height: auto;
     background-color: #343434;
     color: white;
     font-family: 'Playfair Display SC', serif;
@@ -295,11 +293,30 @@ footer {
     }
 
     .Twitch_cards {
+        max-width: 100%;
+        height: auto;
         align-items: center;
         flex: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .Twitch_card {
+        max-height: auto;
+        width: 40%;
+        border: 3px solid black;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 10px 0 25px 0;
     }
 
     #Youtube-videos {
+        flex: 100%;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .Discord {
         flex: 100%;
         align-items: center;
         margin: 0 auto;
