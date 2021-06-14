@@ -123,7 +123,7 @@ nav > a {
     align-items: center;
 }
 
-#Twitch > h2 {
+#Twitch h2 {
     font-size: 2.5rem;
     padding-bottom: 25px;
     text-align: center;
@@ -302,6 +302,7 @@ footer {
     }
 
     nav > a {
+        min-width: 100px;
         margin: 20px;
     }
 
@@ -360,10 +361,19 @@ footer {
 /* Twitch Page */
 
     .Twitch-Logo {
+        max-width: 100%;
+        height: auto;
         text-align: center;
+        margin: 25px 0 25px 0;
     }
 
     .Twitch-Logo img {
-        max-width: 600px;
+        max-width: 40%;
         height: auto;
+    }
+
+    .Twitch-Logo > h3 {
+        font-size: 1.5rem;
+        color: white;
+        padding: 20px 10% 20px 10%;
     }
