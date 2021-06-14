@@ -16,7 +16,7 @@ header {
     align-items: center;
     max-width: 100%;
     min-height: auto;
-    background-color: #343434;
+    background-color: #08222d;
     color: white;
     font-family: 'Playfair Display SC', serif;
     padding: 25px 5% 25px 5%;
@@ -97,7 +97,7 @@ nav > a {
 
 #hero-image > h1 {
     font-size: 3rem;
-    color: white;
+    color: #E9F6FC;
     padding: 250px 0px 30px 50px;
     font-family: 'Playfair Display SC', serif;
     text-decoration: underline;
@@ -127,7 +127,7 @@ nav > a {
     font-size: 2.5rem;
     padding-bottom: 25px;
     text-align: center;
-    color: white;
+    color: #E9F6FC;
     text-decoration: underline;
 }
 
@@ -269,7 +269,7 @@ nav > a {
 footer {
     max-width: 100%;
     min-height: 100px;
-    background-color: #343434;
+    background-color: #08222d;
     color: white;
     font-family: 'Playfair Display SC', serif;
     display: flex;
@@ -376,4 +376,14 @@ footer {
         font-size: 1.5rem;
         color: white;
         padding: 20px 10% 20px 10%;
+    }
+
+    #Twitch-Streamers {
+        max-width: 90%;
+        height: auto;
+        margin: 50px auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
     }
