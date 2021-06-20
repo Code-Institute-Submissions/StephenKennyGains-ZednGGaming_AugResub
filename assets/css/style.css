@@ -317,7 +317,7 @@ footer {
     height: auto;
     margin: 50px auto;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -325,10 +325,6 @@ footer {
 #Twitch-Streamers img {
     border: 10px solid black;
     border-radius: 50%;
-}
-
-#Twitch-Streamers div {
-    padding: 0 15px 0 15px;
 }
 
 hr {
@@ -398,6 +394,15 @@ hr {
         margin: 10px 0 25px 0;
     }
 
+    #Twitch-Streamers {
+        max-width: 100%;
+        height: auto;
+        align-items: center;
+        flex: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
     #Youtube-videos {
         flex: 100%;
         flex-direction: row;
@@ -420,14 +425,6 @@ hr {
         font-size: .5rem;
     }
 
-    #Twitch-Streamers {
-        max-width: 100%;
-        height: auto;
-        align-items: center;
-        flex: 100%;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
 
 }
 
@@ -458,5 +455,14 @@ hr {
         margin: 10px auto;
     } 
 
+    .Streamer_card {
+        width: 40%;
+        height: auto;
+    }
+
+    .Streamer_card img {
+        width: 100%;
+        height: auto;
+    }
 }
 
