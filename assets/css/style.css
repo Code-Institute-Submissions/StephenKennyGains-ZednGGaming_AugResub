@@ -292,6 +292,50 @@ footer {
     padding: 0 40px;
 }
 
+/* Twitch Page */
+
+.Twitch-Logo {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 25px 0 25px 0;
+}
+
+.Twitch-Logo img {
+    max-width: 40%;
+    height: auto;
+}
+
+.Twitch-Logo > h3 {
+    font-size: 1.5rem;
+    color: white;
+    padding: 20px 10% 20px 10%;
+}
+
+#Twitch-Streamers {
+    max-width: 100%;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#Twitch-Streamers img {
+    border: 10px solid black;
+    border-radius: 50%;
+}
+
+#Twitch-Streamers div {
+    padding: 0 15px 0 15px;
+}
+
+hr {
+    border: 4px solid black;
+    width: 90%;
+}
+
 /* Media Queries */
 
 @media (max-width: 1024px) {
@@ -376,6 +420,15 @@ footer {
         font-size: .5rem;
     }
 
+    #Twitch-Streamers {
+        max-width: 100%;
+        height: auto;
+        align-items: center;
+        flex: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -407,37 +460,3 @@ footer {
 
 }
 
-/* Twitch Page */
-
-    .Twitch-Logo {
-        max-width: 100%;
-        height: auto;
-        text-align: center;
-        margin: 25px 0 25px 0;
-    }
-
-    .Twitch-Logo img {
-        max-width: 40%;
-        height: auto;
-    }
-
-    .Twitch-Logo > h3 {
-        font-size: 1.5rem;
-        color: white;
-        padding: 20px 10% 20px 10%;
-    }
-
-    #Twitch-Streamers {
-        max-width: 90%;
-        height: auto;
-        margin: 50px auto;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    #Twitch-Streamers img {
-        border: 10px solid black;
-        border-radius: 50%;
-    }
