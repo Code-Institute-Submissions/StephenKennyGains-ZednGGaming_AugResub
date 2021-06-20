@@ -358,6 +358,37 @@ hr {
     padding: 0 10% 0px 10%;
 }
 
+#Latest {
+    margin: 50px auto;
+}
+
+#Latest > h2 {
+    text-align: center;
+}
+
+#Latest-videos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 90%;
+    height: auto;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+.Latest-Clips {
+    height: 400px;
+    width: 45%;
+    margin: 15px 10px 15px 10px;
+    border: 2px solid white;
+}
+
+#Latest > h3 {
+    text-align: center;
+}
+
 
 /* Media Queries */
 
@@ -452,6 +483,18 @@ hr {
         font-size: .5rem;
     }
 
+    .Latest-Clips {
+        height: 300px;
+        width: 45%;
+    }
+
+    .Feedback {
+        max-width: 90%;
+    }
+    
+    .Feedback > p {
+        font-size: 1.5rem;
+    }
 
 }
 
@@ -465,6 +508,15 @@ hr {
         display: flex;
         max-width: 100px;
         height: auto;
+    }
+
+    .Feedback > p {
+        font-size: 1rem;
+    }
+
+    .Latest-Clips {
+        height: 200px;
+        width: 45%;
     }
 
 }
@@ -490,6 +542,11 @@ hr {
     .Streamer_card img {
         width: 100%;
         height: auto;
+    }
+
+    .Latest-Clips {
+        height: 200px;
+        width: 100%;
     }
 }
 
