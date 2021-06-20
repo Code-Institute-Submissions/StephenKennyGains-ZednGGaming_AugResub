@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato&family=Roboto&display=swap');
 
 body {
     min-width: 100%;
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #E9F6FC;
 }
 
 /*Header and Contained Elements */
@@ -17,8 +19,7 @@ header {
     max-width: 100%;
     min-height: auto;
     background-color: #08222d;
-    color: white;
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'Lato', sans-serif;
     padding: 25px 5% 25px 5%;
 }
 
@@ -30,7 +31,7 @@ header {
 header h1 {
     font-size: 2.5rem;
     letter-spacing: 3px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     text-align: center;
 }
 
@@ -40,11 +41,11 @@ nav {
 }
 
 nav > a {
-    color: white;
     text-decoration: none;
     font-weight: bold;
     text-align: center;
     margin: 40px;
+    color: #E9F6FC;
     font-size: 1.5rem;
     border: 2px solid black;
     border-radius: 15px;
@@ -104,17 +105,14 @@ nav > a {
 
 #hero-image > h1 {
     font-size: 3rem;
-    color: #E9F6FC;
     padding: 250px 0px 30px 50px;
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'Lato', sans-serif;
     text-decoration: underline;
 }
 
 #hero-image > h2 {
     font-size: 2rem;
-    color: white;
     padding: 0px 0px 0px 50px;
-    font-family: 'Roboto', sans-serif;
 }
 
 /* Twitch Section and Links */
@@ -134,7 +132,6 @@ nav > a {
     font-size: 2.5rem;
     padding-bottom: 25px;
     text-align: center;
-    color: #E9F6FC;
     text-decoration: underline;
 }
 
@@ -170,12 +167,11 @@ nav > a {
     padding: 50px 5% 25px 5%;
     text-align: center;
     font-size: 1.5rem;
-    color: white;
     display: block;  
 }
 
 #Twitch > h3 > a {
-    color: white;
+    color: #E9F6FC;
 }
 
 /* Youtube Section */
@@ -222,7 +218,7 @@ nav > a {
 }
 
 #Youtube > h3 > a {
-    color: white;
+    color: #E9F6FC;
 }
 
 
@@ -242,7 +238,6 @@ nav > a {
     font-size: 2.5rem;
     text-align: center;
     padding: 25px 0 25px 0;
-    color: white;
     text-decoration: underline;
 }
 
@@ -261,7 +256,7 @@ nav > a {
 }
 
 .Contact-button > a {
-    color: white;
+    color: #E9F6FC;
     background-color: black;
     text-decoration: none;
     border: 2px solid white;
@@ -283,8 +278,7 @@ footer {
     max-width: 100%;
     min-height: 100px;
     background-color: #08222d;
-    color: white;
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'Lato', sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -308,7 +302,6 @@ footer {
 
 .Twitch-Logo > h3 {
     font-size: 1.5rem;
-    color: white;
     padding: 20px 10% 20px 10%;
 }
 
@@ -331,6 +324,40 @@ hr {
     border: 4px solid black;
     width: 90%;
 }
+
+/* Youtube Page */
+
+.Youtube-Logo {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 25px 0 25px 0;
+}
+
+.Youtube-Logo > h2 {
+    font-size: 2.5rem;
+    padding: 20px 10% 20px 10%;
+    font-family: 'Lato', sans-serif;
+}
+
+.Youtube-Logo img {
+    max-width: 80%;
+    height: auto;
+}
+
+.Feedback {
+    margin: 0 auto;
+    max-width: 80%;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+}
+
+.Feedback > p {
+    color: white;
+    font-size: 2rem;
+    padding: 0 10% 0px 10%;
+}
+
 
 /* Media Queries */
 
