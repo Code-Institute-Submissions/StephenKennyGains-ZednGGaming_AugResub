@@ -391,6 +391,11 @@ hr {
     text-align: center;
 }
 
+.Rec-Channels img {
+    min-width: 250px;
+    height: auto;
+}
+
 .Rec-Channels > h2 {
     text-align: center;
     font-size: 3rem;
@@ -412,6 +417,62 @@ hr {
     height: auto;
     border: 4px solid black;
     border-radius: 50%;
+}
+
+/* Contact Page */
+
+#Contact-Head > h2 {
+    text-align: center;
+}
+
+.form-section {
+    clear: left;
+    height: 900px;
+}
+
+.register-form {
+    margin:150px 10% 0 0;
+    color:#fff;
+    background-color: rgba(245, 245, 245, 0.452);
+    max-width:400px;
+    position:absolute;
+    left:10%;
+    padding:30px;
+}
+
+.register-form > h2 {
+    color:black;
+    margin-bottom:20px;
+}
+
+.text-form {
+    background:transparent;
+    color:black;
+    width:100%;
+    height:25px;
+    margin:5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius:2px;
+}
+
+.text-form:hover {
+    border-color:#f16c6b;
+}
+
+.join-button {
+    margin-top:20px;
+    border-radius:2px;
+    padding:15px 32px 15px 32px;
+    text-align:center;
+    font-size:100%;
+    background-color:#f16c6b;
+    color:black;
+    display:block;
+}
+
+.join-button:hover {
+    background-color:#fafafa;
+    color:#f16c6b;
 }
 
 
@@ -521,6 +582,10 @@ hr {
         font-size: 1.5rem;
     }
 
+    .Rec-Channels img {
+        min-width: auto;
+        height: auto;
+    }
 }
 
 @media (max-width: 768px) {
