@@ -422,21 +422,15 @@ hr {
 /* Contact Page */
 
 #Contact-Head > h2 {
+    margin-top: 100px;
     text-align: center;
 }
 
-.form-section {
-    clear: left;
-    height: 900px;
-}
-
 .register-form {
-    margin:150px 10% 0 0;
+    margin:25px auto;
     color:#fff;
     background-color: rgba(245, 245, 245, 0.452);
     max-width:400px;
-    position:absolute;
-    left:10%;
     padding:30px;
 }
 
@@ -452,7 +446,7 @@ hr {
     height:25px;
     margin:5px 0 20px 0;
     border: 1px solid #fafafa;
-    border-radius:2px;
+    border-radius: 10px;
 }
 
 .text-form:hover {
