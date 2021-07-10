@@ -4,7 +4,7 @@ This site is intended to show the multi-platform content of Irish Games Streamer
 
 ZedNG streams games regualarly to Twitch and uploads highlights of the streams to Youtube as highlight reels. As his following grows he intends to sell merchandise to his audience and the intention of the website will be to both, bring twitch followers over to his youtibe channel and vice-versa along with having regular traffic to the site so when his online store is ready there will already be a steady traffic flowe through the site.
 
-![Responsice Mockup](assets/images/multi-device-mockup.png)
+![Responsive Mockup](assets/images/multi-device-mockup.png)
 
 ## Features 
 
@@ -32,7 +32,7 @@ Contact page- This page is the most basic design to avoid any confusion through 
   - The footer follows the same colour scheme as the header for a uniform design. 
   - The features have been kept minimal to only show my own details, social links to the instagram and github repository and copyright info. 
 
-![Nav Bar](assets/images/Navbar.png)
+![Footer](assets/images/Navbar.png)
 
 - __Home Page Hero image__
 
