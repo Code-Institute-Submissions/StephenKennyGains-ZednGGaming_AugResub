@@ -421,9 +421,13 @@ hr {
 
 /* Contact Page */
 
-#Contact-Head > h2 {
-    margin-top: 100px;
-    text-align: center;
+#Contact-Page {
+    max-width: 100%;
+    min-height: 700px;
+    background-color: #738adb;
+    background-image: url(../images/Background12.png);
+    border-bottom: 25px solid black;
+    border-top: 25px solid black;
 }
 
 .register-form {

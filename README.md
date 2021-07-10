@@ -62,37 +62,63 @@ Contact page- This page is the most basic design to avoid any confusion through 
 
 ![Contact Section](assets/images/contact_section.png)
 
-- __Gallery__
+- __Twitch Page__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The Twitch page shows the current roatation of games being played right now, top streamed games, recommeded channels and partner streamers. 
+  - The design is set to alternate from square imagery to the rounded imagery of other streamers and friends to have contract in the design.
+  - The imagery is all clickable to redirect the user to the associated stream or channel.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Twitch Page](assets/images/twitch_page.png)
 
-- __The Sign Up Page__
+- __Youtube Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - The Youtube page follows a slightly different design by having the first section as text asking followers to contribute to the content by commenting on videos or getting in contact through the form on the contact page.
+  - The videos on the page can be played on the site to avoid users leaving the site where possible.
+  - The page also has recommended channels similar to the Twitch page to continue following a uniform design page to page. 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Youtube Page](assets/images/youtube_page.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+- __Contact Page__
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+  - The contact page is the most minimal on the site to make it easy for users to avoid any confusion and get straight to their contact form. 
+  - The form has a design to simply contrast the background colours and overlay running through the page. 
+  - As the discord logo is featured through the page in the overlay imagery it has been left out of this page.
+
+![Contact Page](assets/images/contact_page.png)
 
 ### Features Left to Implement
 
-- Another feature idea
+- As mentioned earlier, the site will add a store page.
+- The store page will be added when the stremer ZedNg feels their following is significant enough to bring in this feature.
+- The store will be for merchandise such as clothing, gaming accesories or additional subsrciption services. 
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Given the high amount of external linking, the page needed to be chacked regularly for the following,
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+__Internal Links__
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+- The page links are both in the navbar of the page but also featured in the home page sections dividing the page. 
+- The navbar links are tested page to page to ensure each is directing to the correct page or section.
+- The same had to be done for links in associated areas such as the link at the bottom of the Youtube, Twitch and contact section on the landing page to make sure they are bringing the user to the correct page.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+__Twitch Links__
 
+- Twitch links related to videos both redirect the user to the associated video but in some cases also specifically jump to time stamps of particular videos.
+- The reason for this is that some streams cover multiple games as they could be played over 6 hours where 1 game is played for the first half of a stream and another for the other half. For a better user experience, where possible the link will jump directly to the period in each stream where the featured game is being played.
+- In cases where this was not possible it will direct to the landing Twitch page of ZedNG.
+- Links needed to all be individual for this and tested to ensure they directed to the correct content where possible.
+
+__Youtube Links__
+
+- The Youtube videos on the page use Youtubes interface to play the video in the same window and have been tested to ensure the payback is successful without redirection.
+- The additional features of Youtbes interface were also tested such as the options for volume, skipping and watching directly on Youtube.
+- The recommended channels section was tested to ensure that the user is brough directly to the channel shown and not to Youtubes Landing page. 
+
+__Contact Form Button__
+
+- Initially the submit button on the form in the contact section was of type submit which does not have an area for the information to go.
+- this was fixed by changing the type from submit to button to avoid the page attempting to load a page it could not. 
 
 ### Validator Testing 
 
@@ -103,7 +129,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+So far through testing there have been no bugs which have not been fixed. Bugs which needed to be fixed during the development included incorrect linking to the landing pages of sites instead of directly to the intended page, diplay issues when changing screen size, mis-alignment of imagery and alignment of imagery with the titles along with the image. Each have been resolved and no new issues have been found. 
 
 ## Deployment
 
@@ -114,42 +140,42 @@ This section should describe the process you went through to deploy the project 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://stephenkennygains.github.io/ZednGGaming/ 
 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+ 
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Text throughout the page is written personally and has not been pulled from any external sites.
+- External pages linked which are not associated with the streamer ZedNG are as follows;
+- https://www.twitch.tv/
+- https://www.twitch.tv/averagejonas
+- https://www.twitch.tv/shroud
+- https://www.twitch.tv/pokimane
+- https://www.twitch.tv/tenz
+- https://www.twitch.tv/search?term=buckarmy
+- https://www.twitch.tv/kianuki
+- https://www.twitch.tv/el_keeko
+- https://www.twitch.tv/tradiac
+- https://www.twitch.tv/el_edz
+
+- https://www.youtube.com/
+- https://www.youtube.com/channel/UCUT8RoNBTJvwW1iErP6-b-A
+- https://www.youtube.com/user/pokimane
+- https://www.youtube.com/user/JNavarsete
+- https://www.youtube.com/channel/UCWxlUwW9BgGISaakjGM37aw
+
+- The icons through the page were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- Page logo is that of the streamer ZedNG
+- The hero image on the page was taken from unsplash and credit goes to https://unsplash.com/@axville. Image link to unsplash- https://unsplash.com/photos/WcrqKjgMPfI
+- All images for the Youtube and Twitch section of the page were pulled directly from Youtube and Twitch and their respective channels which are linked above.
+- The Youtube and Twitch logo were taken from both Twitch and Youtubes brand guideline pages to ensure they were accurate and up to date imagery and also where the colour codes were taken from.
+ 
 
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+ 
