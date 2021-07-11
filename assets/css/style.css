@@ -286,6 +286,13 @@ footer {
     padding: 0 40px;
 }
 
+.social_icons > a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    padding-left: 15px;
+}
+
 /* Twitch Page */
 
 .Twitch-Logo {
