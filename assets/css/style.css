@@ -103,14 +103,14 @@ nav > a {
     border-top: 25px solid black;
 }
 
-#hero-image > h1 {
+#hero-image > h2 {
     font-size: 3rem;
     padding: 250px 0px 30px 50px;
     font-family: 'Lato', sans-serif;
     text-decoration: underline;
 }
 
-#hero-image > h2 {
+#hero-image > h3 {
     font-size: 2rem;
     padding: 0px 0px 0px 50px;
 }
