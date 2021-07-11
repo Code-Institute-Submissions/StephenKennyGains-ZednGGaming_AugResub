@@ -122,6 +122,12 @@ __Contact Form Button__
 
 ### Validator Testing 
 
+- During testing there were minor issues found in both the html and css which have now been resolved.
+
+- HTML, errors were found within the names of some image files containing spaces which have been rectifeied. Frameborder on youtibe videos was obsolete and have been removed, a h1 element was used instead of a h2 which was easily rectified.
+
+- CSS, there was a contrasting height value between the Twitch_Card class from the original css and the 1024px media query which was changed once the error was identified as being caused by the conflicting values.
+
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
@@ -131,9 +137,7 @@ __Contact Form Button__
 
 So far through testing there have been no bugs which have not been fixed. Bugs which needed to be fixed during the development included incorrect linking to the landing pages of sites instead of directly to the intended page, diplay issues when changing screen size, mis-alignment of imagery and alignment of imagery with the titles along with the image. Each have been resolved and no new issues have been found. 
 
-## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+## Deployment 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
