@@ -52,41 +52,41 @@ nav > a {
     padding: 5px;
 }
 
-.Home-Button {
+.home-button {
     background-color: rgb(238, 223, 11);
 }
 
-.Home-Button:hover {
+.home-button:hover {
     color: rgb(238, 223, 11);
     background-color: black;
     border: 2px solid white;
 }
 
-.Twitch-Button {
+.twitch-button {
     background-color: #6441A4;
 }
 
-.Twitch-Button:hover {
+.twitch-button:hover {
     color: #6441A4;
     background-color: black;
     border: 2px solid white;
 }
 
-.Youtube-Button {
+.youtube-button {
     background-color: rgb(243, 38, 38);
 }
 
-.Youtube-Button:hover {
+.youtube-button:hover {
     color: rgb(243, 38, 38);
     background-color: black;
     border: 2px solid white;
 }
 
-.Contact-Button {
+.contact-button {
     background-color:  #738adb;
 }
 
-.Contact-Button:hover {
+.contact-button:hover {
     color: #738adb;
     background-color: black;
     border: 2px solid white;
@@ -117,7 +117,7 @@ nav > a {
 
 /* Twitch Section and Links */
 
-#Twitch {
+#twitch {
     height: auto;
     max-width: 100%;
     background-color: #6441a4;
@@ -128,14 +128,14 @@ nav > a {
     align-items: center;
 }
 
-#Twitch h2 {
+#twitch h2 {
     font-size: 2.5rem;
     padding-bottom: 25px;
     text-align: center;
     text-decoration: underline;
 }
 
-.Twitch_cards {
+.twitch_cards {
     max-width: 90%;
     height: auto;
     margin: 0 auto;
@@ -145,7 +145,7 @@ nav > a {
     justify-content: space-between;
 }
 
-.Twitch_card {
+.twitch_card {
     width: 18%;
     height: auto;
     border: 3px solid black;
@@ -154,29 +154,29 @@ nav > a {
     margin: 10px 0 25px 0;
 }
 
-.Twitch_cards > a > img {
+.twitch_cards > a > img {
     width: 100%;
     height: auto;
 }
 
-.Twitch_card:hover {
+.twitch_card:hover {
     border: 3px solid white;
 }
 
-#Twitch > h3 {
+#twitch > h3 {
     padding: 50px 5% 25px 5%;
     text-align: center;
     font-size: 1.5rem;
     display: block;  
 }
 
-#Twitch > h3 > a {
+#twitch > h3 > a {
     color: #E9F6FC;
 }
 
 /* Youtube Section */
 
-#Youtube {
+#youtube {
     min-height: auto;
     min-width: 100%;
     background-color: #ff0000b7;
@@ -185,7 +185,7 @@ nav > a {
     border-top: 25px solid black;
 }
 
-#Youtube-videos {
+#youtube-videos {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -197,13 +197,13 @@ nav > a {
     align-items: center;
 }
 
-.Clips {
+.clips {
     width: 30%;
     margin: 15px 10px 15px 10px;
     border: 2px solid white;
 }
 
-#Youtube > h2 {
+#youtube > h2 {
     font-size: 2.5rem;
     text-align: center;
     padding: 25px 0 25px 0;
@@ -211,13 +211,13 @@ nav > a {
     text-decoration: underline;
 }
 
-#Youtube > h3 {
+#youtube > h3 {
     text-align: center;
     font-size: 1.5rem;
     color: white;
 }
 
-#Youtube > h3 > a {
+#youtube > h3 > a {
     color: #E9F6FC;
 }
 
@@ -225,7 +225,7 @@ nav > a {
 
 /* Contact Section */
 
-#Contact {
+#contact {
     max-width: 100%;
     height: auto;
     background-color: #738adb;
@@ -234,28 +234,28 @@ nav > a {
     border-top: 25px solid black;
 }
 
-#Contact > h2 {
+#contact > h2 {
     font-size: 2.5rem;
     text-align: center;
     padding: 25px 0 25px 0;
     text-decoration: underline;
 }
 
-#Contact p {
+#contact p {
     font-size: 2rem;
     text-align: center;
     color: black;
     padding: 50px 25% 50px 25%;
 }
 
-.Contact-button {
+.contact-page-button {
     min-width: 400px;
     height: auto;
     text-align: center;
     padding: 0 0 50px 0;
 }
 
-.Contact-button > a {
+.contact-page-button > a {
     color: #E9F6FC;
     background-color: black;
     text-decoration: none;
@@ -265,7 +265,7 @@ nav > a {
     font-size: 1.5rem;
 }
 
-.Contact-button > a:hover {
+.contact-page-button > a:hover {
     color: black;
     background-color: white;
     border: 2px solid black;
@@ -295,35 +295,38 @@ footer {
 
 /* Twitch Page */
 
-.Twitch-Logo {
+.twitch-logo {
     max-width: 100%;
     height: auto;
     text-align: center;
     margin: 25px 0 25px 0;
 }
 
-.Twitch-Logo img {
+.twitch-logo img {
     max-width: 40%;
     height: auto;
 }
 
-.Twitch-Logo > h3 {
+.twitch-logo > h3 {
     font-size: 1.5rem;
     padding: 20px 10% 20px 10%;
 }
 
-#Twitch-Streamers {
-    max-width: 100%;
+#twitch-streamers {
+    max-width: 90%;
     height: auto;
     margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+    text-align: center;
 }
 
-#Twitch-Streamers img {
-    border: 10px solid black;
+#twitch-streamers img {
+    max-width: 100%;
+    height: auto;
+    border: 4px solid black;
     border-radius: 50%;
 }
 
@@ -334,47 +337,47 @@ hr {
 
 /* Youtube Page */
 
-.Youtube-Logo {
+.youtube-logo {
     max-width: 100%;
     height: auto;
     text-align: center;
     margin: 25px 0 25px 0;
 }
 
-.Youtube-Logo > h2 {
+.youtube-logo > h2 {
     font-size: 2.5rem;
     padding: 20px 10% 20px 10%;
     font-family: 'Lato', sans-serif;
 }
 
-.Youtube-Logo img {
+.youtube-logo img {
     max-width: 80%;
     height: auto;
 }
 
-.Feedback {
+.feedback {
     margin: 0 auto;
     max-width: 80%;
     border-top: 4px solid white;
     border-bottom: 4px solid white;
 }
 
-.Feedback > p {
+.feedback > p {
     color: white;
     font-size: 2rem;
     padding: 0 10% 0px 10%;
 }
 
-#Latest {
+#latest {
     margin: 50px auto;
 }
 
-#Latest > h2 {
+#latest > h2 {
     font-size: 3rem;
     text-align: center;
 }
 
-#Latest-videos {
+#latest-videos {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -386,7 +389,7 @@ hr {
     align-items: center;
 }
 
-.Latest-Clips {
+.latest-clips {
     height: 400px;
     width: 45%;
     margin: 15px 10px 15px 10px;
@@ -394,21 +397,21 @@ hr {
     border-bottom: 4px solid white;
 }
 
-#Latest > h3 {
+#latest > h3 {
     text-align: center;
 }
 
-.Rec-Channels img {
+.rec-channels img {
     min-width: 250px;
     height: auto;
 }
 
-.Rec-Channels > h2 {
+.rec-channels > h2 {
     text-align: center;
     font-size: 3rem;
 }
 
-#Youtube-Streamers {
+#youtube-streamers {
     max-width: 90%;
     height: auto;
     margin: 50px auto;
@@ -419,7 +422,7 @@ hr {
     text-align: center;
 }
 
-#Youtube-Streamers img {
+#youtube-streamers img {
     max-width: 100%;
     height: auto;
     border: 4px solid black;
@@ -428,7 +431,7 @@ hr {
 
 /* Contact Page */
 
-#Contact-Page {
+#contact-page {
     max-width: 100%;
     min-height: 700px;
     background-color: #738adb;
@@ -525,7 +528,7 @@ hr {
         padding: 0px 0px 0px 10px;
     }
 
-    .Twitch_cards {
+    .twitch_cards {
         max-width: 100%;
         height: auto;
         align-items: center;
@@ -534,7 +537,7 @@ hr {
         flex-wrap: wrap;
     }
 
-    .Twitch_card {
+    .twitch_card {
         height: auto;
         width: 40%;
         border: 3px solid black;
@@ -543,7 +546,7 @@ hr {
         margin: 10px 0 25px 0;
     }
 
-    #Twitch-Streamers {
+    #twitch-streamers {
         max-width: 100%;
         height: auto;
         align-items: center;
@@ -552,20 +555,20 @@ hr {
         flex-wrap: wrap;
     }
 
-    #Youtube-videos {
+    #youtube-videos {
         flex: 100%;
         flex-direction: row;
         flex-wrap: wrap;
         text-align: center;
     }
 
-    .Clips {
+    .clips {
         min-width: 90%;
         margin: 15px auto;
         border: 2px solid white;
     }
 
-    #Contact p {
+    #contact p {
         font-size: 1.5rem;
         padding: 25px 15px;
     }
@@ -574,20 +577,20 @@ hr {
         font-size: .5rem;
     }
 
-    .Latest-Clips {
+    .latest-clips {
         height: 300px;
         width: 45%;
     }
 
-    .Feedback {
+    .feedback {
         max-width: 90%;
     }
     
-    .Feedback > p {
+    .feedback > p {
         font-size: 1.5rem;
     }
 
-    .Rec-Channels img {
+    .rec-channels img {
         min-width: auto;
         height: auto;
     }
@@ -605,11 +608,11 @@ hr {
         height: auto;
     }
 
-    .Feedback > p {
+    .feedback > p {
         font-size: 1rem;
     }
 
-    .Latest-Clips {
+    .latest-clips {
         height: 200px;
         width: 45%;
     }
@@ -629,19 +632,44 @@ hr {
         margin: 10px auto;
     } 
 
-    .Streamer_card {
-        width: 40%;
+    .streamer_card {
+        min-width: 40%;
         height: auto;
     }
 
-    .Streamer_card img {
+    .streamer_card img {
         width: 100%;
         height: auto;
     }
 
-    .Latest-Clips {
+    .latest-clips {
         height: 200px;
         width: 100%;
     }
+
+    #twitch-streamers {
+        max-width: 90%;
+        height: auto;
+        margin: 50px auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
 }
 
+@media (max-width: 375px) {
+
+#youtube-streamers {
+    max-width: 90%;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+}
