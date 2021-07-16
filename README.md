@@ -108,6 +108,7 @@ __Twitch Links__
 - The reason for this is that some streams cover multiple games as they could be played over 6 hours where 1 game is played for the first half of a stream and another for the other half. For a better user experience, where possible the link will jump directly to the period in each stream where the featured game is being played.
 - In cases where this was not possible it will direct to the landing Twitch page of ZedNG.
 - Links needed to all be individual for this and tested to ensure they directed to the correct content where possible.
+- Due to Twitch only allowing a certain number of previous streams to be held on the channel, some game images link over to games that are different to the featureed image.
 
 __Youtube Links__
 
