@@ -130,9 +130,9 @@ __Contact Form Button__
 - CSS, there was a contrasting height value between the Twitch_Card class from the original css and the 1024px media query which was changed once the error was identified as being caused by the conflicting values.
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fstephenkennygains.github.io%2FZednGGaming%2F)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
 
 ### Unfixed Bugs
 
@@ -156,22 +156,22 @@ The live link can be found here - https://stephenkennygains.github.io/ZednGGamin
 
 - Text throughout the page is written personally and has not been pulled from any external sites.
 - External pages linked which are not associated with the streamer ZedNG are as follows;
-- https://www.twitch.tv/
-- https://www.twitch.tv/averagejonas
-- https://www.twitch.tv/shroud
-- https://www.twitch.tv/pokimane
-- https://www.twitch.tv/tenz
-- https://www.twitch.tv/search?term=buckarmy
-- https://www.twitch.tv/kianuki
-- https://www.twitch.tv/el_keeko
-- https://www.twitch.tv/tradiac
-- https://www.twitch.tv/el_edz
+- Twitch Tv (https://www.twitch.tv/)
+- Average Jonas (https://www.twitch.tv/averagejonas)
+- Shroud (https://www.twitch.tv/shroud)
+- Pokimane (https://www.twitch.tv/pokimane)
+- Tenz (https://www.twitch.tv/tenz)
+- BuckArmy (https://www.twitch.tv/search?term=buckarmy)
+- Kianuki (https://www.twitch.tv/kianuki)
+- El_Keeko (https://www.twitch.tv/el_keeko)
+- Tradiac (https://www.twitch.tv/tradiac)
+- El_Edz (https://www.twitch.tv/el_edz)
 
-- https://www.youtube.com/
-- https://www.youtube.com/channel/UCUT8RoNBTJvwW1iErP6-b-A
-- https://www.youtube.com/user/pokimane
-- https://www.youtube.com/user/JNavarsete
-- https://www.youtube.com/channel/UCWxlUwW9BgGISaakjGM37aw
+- Youtube (https://www.youtube.com/)
+- Disguised Toast (https://www.youtube.com/channel/UCUT8RoNBTJvwW1iErP6-b-A)
+- Pokimane (https://www.youtube.com/user/pokimane)
+- Avergae Jonas (https://www.youtube.com/user/JNavarsete)
+- Valkyrae (https://www.youtube.com/channel/UCWxlUwW9BgGISaakjGM37aw)
 
 - The icons through the page were taken from [Font Awesome](https://fontawesome.com/)
 
