@@ -324,6 +324,17 @@ footer {
     text-align: center;
 }
 
+.twitch-streamers {
+    max-width: 90%;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
 #twitch-streamers img {
     max-width: 100%;
     height: auto;
